@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/checker.hpp
+chrono
+-
+iostream
+-
+
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/roi.cpp
+checker.hpp
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/checker.hpp
+algorithm
+-
+fstream
+-
+string
+-
+tuple
+-
+vector
+-
+

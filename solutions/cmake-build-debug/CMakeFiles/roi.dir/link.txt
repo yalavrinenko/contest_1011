@@ -1,0 +1,1 @@
+/home/cheshire/.local/bin/g++  -Wall -Werror -g   CMakeFiles/roi.dir/roi.cpp.o  -o roi 

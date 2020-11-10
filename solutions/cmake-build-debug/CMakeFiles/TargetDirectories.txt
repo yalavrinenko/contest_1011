@@ -1,0 +1,5 @@
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug/CMakeFiles/roi.dir
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug/CMakeFiles/occurrences.dir
+/home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug/CMakeFiles/lsp.dir

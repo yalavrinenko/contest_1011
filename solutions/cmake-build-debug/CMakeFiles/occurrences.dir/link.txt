@@ -1,0 +1,1 @@
+/home/cheshire/.local/bin/g++  -Wall -Werror -g   CMakeFiles/occurrences.dir/occurrences.cpp.o  -o occurrences 

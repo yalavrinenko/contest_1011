@@ -1,0 +1,1 @@
+/home/cheshire/.local/bin/g++  -Wall -Werror -g   CMakeFiles/lsp.dir/lsp.cpp.o  -o lsp 

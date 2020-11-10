@@ -1,0 +1,4 @@
+/home/cheshire/Files/Soft/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/cheshire/.local/bin/gcc -DCMAKE_CXX_COMPILER=/home/cheshire/.local/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cheshire/Files/mipt/c++/2020-2021/contests/10.11/solutions/cmake-build-debug
