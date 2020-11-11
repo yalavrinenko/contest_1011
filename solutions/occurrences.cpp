@@ -64,7 +64,7 @@ private:
 };
 
 int main(int argc, char **argv) {
-  std::string root{"../tests/occurrences/"};
+  std::string root{"./tests/occurrences/"};
   for (auto i = 1; i <= 10; ++i)
     check(remove_elements, Input(root + std::to_string(i) + ".dat"), Validate(root + std::to_string(i) + ".eta"),
           std::chrono::seconds{1});

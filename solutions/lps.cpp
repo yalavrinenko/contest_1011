@@ -10,7 +10,7 @@
 #include <map>
 #include <iterator>
 
-unsigned long long lsp(unsigned long long* begin, unsigned long long* end){
+unsigned long long lps(unsigned long long* begin, unsigned long long* end){
 }
 
 class Input {
@@ -51,10 +51,23 @@ private:
   std::string path_;
 };
 
+
+class Generate{
+public:
+  explicit Generate(std::string path): path_{std::move(path)}{}
+  bool operator() (unsigned long long array) const {
+    std::ofstream out(path_.c_str());
+    out << array;
+    return true;
+  }
+private:
+  std::string path_;
+};
+
 int main(int argc, char **argv) {
-  std::string root{"../tests/lsp/"};
-  for (auto i = 1; i <= 10; ++i)
-    check(lsp, Input(root + std::to_string(i) + ".dat"), Validate(root + std::to_string(i) + ".eta"),
+  std::string root{"./tests/lps/"};
+  for (auto i = 1; i <= 14; ++i)
+    check(lps, Input(root + std::to_string(i) + ".dat"), Validate(root + std::to_string(i) + ".eta"),
           std::chrono::seconds{1});
   return 0;
 }

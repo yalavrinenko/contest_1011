@@ -5,4 +5,4 @@ set(CMAKE_CXX_FLAGS "-Wall -Werror")
 
 add_executable(roi roi.cpp)
 add_executable(occurrences occurrences.cpp)
-add_executable(lsp lsp.cpp)
+add_executable(lsp lps.cpp)

@@ -97,7 +97,7 @@ private:
 };
 
 int main(int argc, char **argv) {
-  std::string root{"../tests/roi/"};
+  std::string root{"./tests/roi/"};
   for (auto i = 1; i <= 10; ++i)
     check(central_pixels, Input(root + std::to_string(i) + ".dat"), Validate(root + std::to_string(i) + ".eta"),
           std::chrono::seconds{1});
